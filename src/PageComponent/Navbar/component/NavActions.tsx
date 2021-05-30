@@ -1,4 +1,5 @@
 import React from "react";
+import darkMode from "../../../hooks/darkMode";
 
 const NavActions = () => {
   return (
@@ -39,6 +40,7 @@ const NavActions = () => {
           <div
             className="relative grid p-3 mx-1 text-xl bg-gray-200 rounded-full cursor-pointer place-items-center dark:bg-dark-third dark:text-dark-txt hover:bg-gray-300"
             id="dark-mode-toggle"
+            onClick={() => darkMode()}
           >
             <i className="bx bxs-moon"></i>
           </div>

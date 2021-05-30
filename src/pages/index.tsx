@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "../PageComponent/Navbar/Navbar";
+import Sidebar from "../PageComponent/Sidebar/Sidebar";
 
 const Home = () => {
   return (
-    <>
-      <Navbar />
-    </>
+    <div className="flex justify-center h-screen">
+      <Sidebar />
+    </div>
   );
 };
 
