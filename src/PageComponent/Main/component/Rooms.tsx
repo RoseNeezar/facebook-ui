@@ -14,7 +14,7 @@ const Rooms = () => {
         {rooms.map((res) => (
           <div className="relative cursor-pointer">
             <img
-              src="./images/avt-3.jpg"
+              src="./images/avt.jpg"
               alt="Profile picture"
               className="rounded-full"
             />
