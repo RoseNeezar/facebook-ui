@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "../PageComponent/navbar";
+import Navbar from "../PageComponent/Navbar/Navbar";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Navbar />
-    </div>
+    </>
   );
 };
 
