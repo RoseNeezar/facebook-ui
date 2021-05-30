@@ -6,7 +6,7 @@ const PostOP = () => {
       <div className="flex items-center space-x-2">
         <div className="relative">
           <img
-            src="./images/avt-3.jpg"
+            src="./images/avt.jpg"
             alt="Profile picture"
             className="w-10 h-10 rounded-full"
           />
