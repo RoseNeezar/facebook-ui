@@ -4,7 +4,7 @@ import SidebarShortCut from "./component/SidebarShortCut";
 
 const Sidebar = () => {
   return (
-    <div className="fixed top-0 left-0 flex-col hidden w-1/5 h-full pt-16 xl:flex">
+    <>
       <ul className="p-4">
         <SidebarNavigation />
       </ul>
@@ -21,7 +21,7 @@ const Sidebar = () => {
       <ul className="p-4">
         <SidebarShortCut />
       </ul>
-    </div>
+    </>
   );
 };
 

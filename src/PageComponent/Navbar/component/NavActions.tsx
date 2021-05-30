@@ -11,7 +11,7 @@ const NavActions = () => {
             className="inline-flex items-center justify-center p-1 mx-1 rounded-full hover:bg-gray-200 dark:hover:bg-dark-third"
           >
             <img
-              src="./images/tuat.png"
+              src="./images/ember.png"
               alt="Profile picture"
               className="object-cover rounded-full h-7 w-7"
             />
